@@ -1,13 +1,19 @@
 package TestPackage;
 
-import org.apache.commons.lang3.RandomStringUtils;
+import java.util.Scanner;
+
+
 
 public class HelloWorld {
+	private static Scanner scn;
+
 	public static void main(String[] args){
 		
-	
-System.out.println("Hellow");
-System.out.println(RandomStringUtils.randomNumeric(5));
+scn = new Scanner(System.in);
+String tesxt ;
+tesxt = scn.nextLine();
+System.out.println(tesxt);
+System.out.println("!!!");
 }
 	
 
